@@ -3,7 +3,7 @@ from pywinauto.application import Application
 from time import sleep
 
 pickup_line = "Hello I am a human! How are you fellow human?!"
-swipes = 5
+swipes = 100
 app = Application(backend="win32").start("/Program Files/Google/Chrome/Application/chrome.exe")
 sleep(1)
 keyboard.send_keys("{VK_LWIN down}{VK_UP}{VK_LWIN up}")
